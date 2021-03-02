@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 3vw;
     line-height: 1.5;
     font-weight: 500;
     color: #000000;
@@ -8,14 +8,14 @@ body {
 }
 
 .header {
-    padding: 10px;
+    padding: 1vw;
     background-color: #ffffff;
     align-items: center;
     border-bottom: solid 1px #eeeeee;
 }
 
 .logo{
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 900;
     text-align: center;
     color: #A4ABCE;
@@ -32,7 +32,7 @@ body {
 }
 
 .menuBar {
-    padding: 10px;
+    padding: 0.5vw;
     background-color: #ffffff;
     align-items: center;
     border-bottom: solid 1px #eeeeee;
@@ -42,7 +42,7 @@ body {
 }
 
 .menuitem1{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 200;
     color: #000000;
 }
@@ -56,7 +56,7 @@ body {
     color: #A4ABCE;
 }
 .menuitem2{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 200;
     color: #000000;
 }
@@ -73,11 +73,12 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%;
-    height: 530px;
+    height: 20vw;
     background-color: #A4ABCE;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .wordContainer{
     padding-left: 5%;
@@ -88,21 +89,21 @@ body {
     justify-content: center;
 }
 h1.word {
-    font-size: 80px;
+    font-size: 5vw;
     font-weight: 900;
     line-height: 1;
     color: #FFFFFF;
     margin: 0;
 }
 h1.pronunciation {
-    font-size: 60px;
+    font-size: 3.75vw;
     font-weight: 900;
     line-height: 1;
     color: #FFFFFF;
     margin: 0;
 }
 h1.partOfSpeech {
-    font-size: 60px;
+    font-size: 3.75vw;
     font-weight: 900;
     line-height: 1;
     color: #FFFFFF;
@@ -116,7 +117,7 @@ h1.partOfSpeech {
 }
 .divider{
     background-color: #FFFFFF;
-    width: 30px;
+    width: 1vw;
     height: 100%;
 }
 .defContainer {
@@ -135,24 +136,25 @@ p.definition {
     margin: 0;
 }
 .articles{
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
 }
 .article1Container{
-    padding-top: 1%;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 900;
-    width: 40%;
-    height: 440px;
+    width: 40vw;
+    height: 40vw;
     box-shadow: 0px 0px 20px #888888;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 .article1Container a{
-    height: 400px;
     color: #000000;
     text-decoration: none;
 
@@ -160,19 +162,21 @@ p.definition {
 
 .article1Container img{
     padding-top: 1%;
-    width: 480px;
-    height: 360px;
+    width: 36vw;
+    height: 27vw;
 
 }
 
 .article2Container{
-    padding-top: 1%;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 900;
-    width: 40%;
-    height: 450px;
+    width: 40vw;
+    height: 40vw;
     box-shadow: 0px 0px 20px #888888;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .article2Container a{
     color: #000000;
@@ -180,47 +184,40 @@ p.definition {
 }
 .article2Container img{
     padding-top: 1%;
-    width: 480px;
-    height: 360px;
+    width: 36vw;
+    height: 27vw;
 
 }
 
 .contentContainer{
-    width: 1200px;
-    padding-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
 }
 .contentContainer img{
-    width: 800px;
-    height: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    width: 64vw;
+    height: 48vw;
 }
 
 h1.contentTitle {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 4vw;
     text-align: center;
 }
 p.contentText {
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+    width: 50vw;
     font-weight: 300;
     color: #000000;
-    font-size: 20px;
-    padding-bottom: 5%;
+    font-size: 1.5vw;
+    padding-bottom: 2%;
 }
 .contentContainer a{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+    width: 50vw;
     font-weight: 300;
     color: #000000;
-    font-size: 20px;
-    padding-bottom: 5%;
+    font-size: 1.5vw;
 }
