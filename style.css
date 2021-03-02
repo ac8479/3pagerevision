@@ -1,0 +1,226 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.header {
+    padding: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #A4ABCE;
+}
+.logo a{
+    color: #A4ABCE;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.logo a:hover {
+    background-color: #eeeeee;
+    color: #A4ABCE;
+}
+
+.menuBar {
+    padding: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border-bottom: solid 1px #eeeeee;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuitem1{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+}
+.menuitem1 a{
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.menuitem1 a:hover {
+    color: #A4ABCE;
+}
+.menuitem2{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+}
+.menuitem2 a{
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.menuitem2 a:hover {
+    color: #A4ABCE;
+}
+.educationBox {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 530px;
+    background-color: #A4ABCE;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wordContainer{
+    padding-left: 5%;
+    padding-right: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+h1.word {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1;
+    color: #FFFFFF;
+    margin: 0;
+}
+h1.pronunciation {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    color: #FFFFFF;
+    margin: 0;
+}
+h1.partOfSpeech {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    color: #FFFFFF;
+    font-style: italic;
+    margin: 0;
+}
+.dividerContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+}
+.divider{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 100%;
+}
+.defContainer {
+    padding-left: 0%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+p.definition {
+    font-size: 2.2vw;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFFFFF;
+    margin: 0;
+}
+.articles{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.article1Container{
+    padding-top: 1%;
+    font-size: 30px;
+    font-weight: 900;
+    width: 40%;
+    height: 440px;
+    box-shadow: 0px 0px 20px #888888;
+    text-align: center;
+
+}
+.article1Container a{
+    height: 400px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.article1Container img{
+    padding-top: 1%;
+    width: 480px;
+    height: 360px;
+
+}
+
+.article2Container{
+    padding-top: 1%;
+    font-size: 30px;
+    font-weight: 900;
+    width: 40%;
+    height: 450px;
+    box-shadow: 0px 0px 20px #888888;
+    text-align: center;
+}
+.article2Container a{
+    color: #000000;
+    text-decoration: none;
+}
+.article2Container img{
+    padding-top: 1%;
+    width: 480px;
+    height: 360px;
+
+}
+
+.contentContainer{
+    width: 1200px;
+    padding-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentContainer img{
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+h1.contentTitle {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+p.contentText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+.contentContainer a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
